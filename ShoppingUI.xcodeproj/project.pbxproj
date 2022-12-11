@@ -14,6 +14,13 @@
 		4543B9BD2944DA80005F2312 /* ShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9BC2944DA80005F2312 /* ShoppingUITests.swift */; };
 		4543B9C72944DA80005F2312 /* ShoppingUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9C62944DA80005F2312 /* ShoppingUIUITests.swift */; };
 		4543B9C92944DA80005F2312 /* ShoppingUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9C82944DA80005F2312 /* ShoppingUIUITestsLaunchTests.swift */; };
+		4543B9D92944DB06005F2312 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9D82944DB06005F2312 /* Home.swift */; };
+		4543B9DB2944E3EA005F2312 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9DA2944E3EA005F2312 /* ModelData.swift */; };
+		4543B9DD2944E75F005F2312 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9DC2944E75F005F2312 /* TabButton.swift */; };
+		4543B9DF29452EE8005F2312 /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9DE29452EE8005F2312 /* BagView.swift */; };
+		4543B9E129453F44005F2312 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9E029453F44005F2312 /* DetailView.swift */; };
+		4543B9E329454E93005F2312 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9E229454E93005F2312 /* ColorButton.swift */; };
+		4543B9E52945532B005F2312 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4543B9E42945532B005F2312 /* CustomCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		4543B9C22944DA80005F2312 /* ShoppingUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4543B9C62944DA80005F2312 /* ShoppingUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingUIUITests.swift; sourceTree = "<group>"; };
 		4543B9C82944DA80005F2312 /* ShoppingUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4543B9D82944DB06005F2312 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4543B9DA2944E3EA005F2312 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		4543B9DC2944E75F005F2312 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		4543B9DE29452EE8005F2312 /* BagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
+		4543B9E029453F44005F2312 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4543B9E229454E93005F2312 /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		4543B9E42945532B005F2312 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,8 @@
 		4543B9AA2944DA7F005F2312 /* ShoppingUI */ = {
 			isa = PBXGroup;
 			children = (
+				4543B9D72944DAD5005F2312 /* View */,
+				4543B9D52944DAB7005F2312 /* Model */,
 				4543B9AB2944DA7F005F2312 /* ShoppingUIApp.swift */,
 				4543B9AD2944DA7F005F2312 /* ContentView.swift */,
 				4543B9AF2944DA80005F2312 /* Assets.xcassets */,
@@ -125,6 +141,27 @@
 				4543B9C82944DA80005F2312 /* ShoppingUIUITestsLaunchTests.swift */,
 			);
 			path = ShoppingUIUITests;
+			sourceTree = "<group>";
+		};
+		4543B9D52944DAB7005F2312 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4543B9DA2944E3EA005F2312 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4543B9D72944DAD5005F2312 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4543B9D82944DB06005F2312 /* Home.swift */,
+				4543B9DC2944E75F005F2312 /* TabButton.swift */,
+				4543B9DE29452EE8005F2312 /* BagView.swift */,
+				4543B9E029453F44005F2312 /* DetailView.swift */,
+				4543B9E229454E93005F2312 /* ColorButton.swift */,
+				4543B9E42945532B005F2312 /* CustomCorner.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +295,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4543B9AE2944DA7F005F2312 /* ContentView.swift in Sources */,
+				4543B9DB2944E3EA005F2312 /* ModelData.swift in Sources */,
+				4543B9D92944DB06005F2312 /* Home.swift in Sources */,
+				4543B9E52945532B005F2312 /* CustomCorner.swift in Sources */,
+				4543B9E129453F44005F2312 /* DetailView.swift in Sources */,
+				4543B9DD2944E75F005F2312 /* TabButton.swift in Sources */,
 				4543B9AC2944DA7F005F2312 /* ShoppingUIApp.swift in Sources */,
+				4543B9DF29452EE8005F2312 /* BagView.swift in Sources */,
+				4543B9E329454E93005F2312 /* ColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
